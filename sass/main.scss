@@ -1,3 +1,8 @@
+/*
+By : Ankit Singh
+Date : 26-11-2020
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
 
 * {
@@ -37,7 +42,7 @@ input {
                 width: 1500px;
                 height: 1500px;
                 left: 30%;
-                bottom: 68%;
+                bottom: 65%;
                 transform: translateX(-50%);
                 right: inherit;
                 top: initial;
@@ -48,7 +53,14 @@ input {
 
         @media screen and (max-width: 570px) {
             & {
-                bottom: 72%;
+                bottom: 69%;
+                left: 50%;
+            }
+        }
+
+        @media screen and (max-width: 300px) {
+            & {
+                bottom: 66%;
                 left: 50%;
             }
         }
@@ -118,7 +130,7 @@ input {
 
             @media screen and (max-width: 570px) {
                 & {
-                    bottom: 28%;
+                    bottom: 32%;
                     left: 50%;
                 }
             }
@@ -307,7 +319,6 @@ form {
     /*******Media Queries*********/
     @media screen and (max-width: 870px) {
         //background: linear-gradient(to left, rgb(255, 112, 46), rgb(255, 123, 0));
-        z-index: 10;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 2fr 1fr;
     }
